@@ -12,6 +12,6 @@
 >> <h3> List of Projects </h3>
 ------------------------------
 
-Projects             | Type  	                    | Description                                              |
----------------------|:-----------------------------|:---------------------------------------------------------|
-GIT                  |Git process automation	    | Automate processes like git clone, git push and git pull 
+Projects             | Type  	                    | Description                                              | Start Command |
+---------------------|:-----------------------------|:---------------------------------------------------------|-----------------
+GIT                  |Git process automation	    | Automate processes like git clone, git push and git pull | `start.sh`
