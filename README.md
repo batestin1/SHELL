@@ -15,5 +15,4 @@
 Projects             | Type  	                    | Description                                              | Start Command |
 ---------------------|:-----------------------------|:---------------------------------------------------------|-----------------
 GIT                  |Git process automation	    | Automate processes like git clone, git push and git pull | `start.sh`
----------------------|:-----------------------------|:---------------------------------------------------------|-----------------
-USER                 
+USER                 |Creating Linux Users          | Automation for creating multiple linux users             | `start.sh`

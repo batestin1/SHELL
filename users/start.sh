@@ -17,7 +17,7 @@ echo "Quantos registros deseja efetuar? "
 read reg
 sleep 3
 clear
-for ((i=0; i<$reg; i++));
+for ((i=1; i<$reg; i++));
 do
     echo "INSIRA O REGISRO Nº $i:"
     echo "Nome completo"
