@@ -16,3 +16,5 @@ Projects             | Type  	                    | Description                 
 ---------------------|:-----------------------------|:---------------------------------------------------------|-----------------
 GIT                  |Git process automation	    | Automate processes like git clone, git push and git pull | `start.sh`
 USER                 |Creating Linux Users          | Automation for creating multiple linux users             | `start.sh`
+PYPI                |Creating a Pypi project       | The shell creates a Pypi project with all the necessary files and infrastructure | `pypi.sh`
+HEADER              |Create python files with formatted headers |Automates the process of creating python files with custom headers | `header.sh`
