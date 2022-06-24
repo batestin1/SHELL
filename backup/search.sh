@@ -2,11 +2,11 @@
 
 #####################################################################
 #
-# script name: backup.sh
+# script name: search.sh
 # created in: 06/23/22
 # modified in: 15:08:38
 #
-# summary: list contents about the external disk
+# summary: search content of backup disk
 #                                               developed by: bates
 #####################################################################
 #reading the parameters
@@ -22,7 +22,6 @@ USED=$(df -h $DIR_1 | grep -v "Size" | cut -c23-28) > /dev/null 2> /dev/null 0>/
 AVAIL=$(df -h $DIR_1 | grep -v "Size" | cut -c29-32) > /dev/null 2> /dev/null 0>/dev/null 
 
 #first checking
-
 if [ $# -eq 0 -o $# -gt 3 ]
 then
     echo "Missing or exceeding stop limit"
@@ -64,6 +63,6 @@ else
         echo "The file $NAMEFILE.txt was created whit succefull on $DIR_2/$NAMEFILE.txt"
         echo ""
         echo "==================================================================================================================="
-       
+    
     fi
 fi
