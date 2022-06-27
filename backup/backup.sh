@@ -25,8 +25,11 @@ AVAIL=$(df -h $DIR_1 | grep -v "Size" | cut -c29-32) > /dev/null 2> /dev/null 0>
 
 if [ $# -eq 0 -o $# -gt 3 ]
 then
-    echo "Missing or exceeding stop limit"
-    echo "Try again!"
+    echo "===================================================="
+    echo "You need to inform the correct parameters!"
+    echo "===================================================="
+    echo "For help type --help"
+    echo "===================================================="
 elif [ $1 = "--help" ]
 then
     echo """=================== HELP COMMANDS ========================================"
