@@ -21,3 +21,4 @@ HEADER              |Create python files with formatted headers |Automates the p
 HELP    |           save summary and operators commands in txt file | save summary and operators commands in txt file |`help.sh`
 BACKUP  |   BACKUP IN TXT FILE FOR CONTENTS OF EXTERNAL HD | list contents about the external disk | `backup.sh`
 API MUSIC | API TO  DOWNLOAD LYRICS SONGS | API TO DOWNLOAD LYRICIS SONGS | `musich.sh`
+POKEMON GAME | A pokemon battle using pokemon go api | A pokemon battle using pokemon go api | `init.sh`
