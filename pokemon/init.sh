@@ -31,6 +31,7 @@ then
             sh game.sh
         else
             sudo apt-get install jq -y
+            sudo apt -y install curl
             sh game.sh
 
         fi
