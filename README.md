@@ -22,3 +22,4 @@ HELP    |           save summary and operators commands in txt file | save summa
 BACKUP  |   BACKUP IN TXT FILE FOR CONTENTS OF EXTERNAL HD | list contents about the external disk | `backup.sh`
 API MUSIC | API TO  DOWNLOAD LYRICS SONGS | API TO DOWNLOAD LYRICIS SONGS | `musich.sh`
 POKEMON GAME | A pokemon battle using pokemon go api | A pokemon battle using pokemon go api | `init.sh`
+GENERATOR BACKUP | Generates a backup every 7 days of your home directory | Generates a backup every 7 days of your home directory | `GerarBackupHome.sh`
